@@ -67,6 +67,8 @@ public class RockPaperScissors {
                     System.out.println("Yah, you win!");
                 }
             }
+            
+            System.out.println();
 
             // Prompting the player if they want to play again
             System.out.println("Do you want to play again? (y/n)");
@@ -76,9 +78,11 @@ public class RockPaperScissors {
             if (!playAgain.equals("y")) {
                 break;
             }
+
+            System.out.println();
         }
 
-        // Closing the scanner
+        // Closing the scannerp
         scanner.close();
     
     }
